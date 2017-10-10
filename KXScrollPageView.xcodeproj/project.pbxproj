@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C54AF2D4525FC8EBD8B62B8 /* libPods-KXScrollPageView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3299727150D0B355AB94D7C4 /* libPods-KXScrollPageView.a */; };
+		9E549D121F8B77B90025D35C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E549D111F8B77B90025D35C /* AppDelegate.m */; };
+		9E549D151F8B77B90025D35C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E549D141F8B77B90025D35C /* ViewController.m */; };
+		9E549D181F8B77B90025D35C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E549D161F8B77B90025D35C /* Main.storyboard */; };
+		9E549D1A1F8B77B90025D35C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E549D191F8B77B90025D35C /* Assets.xcassets */; };
+		9E549D1D1F8B77B90025D35C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E549D1B1F8B77B90025D35C /* LaunchScreen.storyboard */; };
+		9E549D201F8B77B90025D35C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E549D1F1F8B77B90025D35C /* main.m */; };
+		9E549D291F8B784D0025D35C /* KXPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E549D281F8B784D0025D35C /* KXPageControl.m */; };
+		9E549D2C1F8B786D0025D35C /* KXScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E549D2B1F8B786D0025D35C /* KXScrollPageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1147DEF6D3E7821D5BC5E46A /* Pods-KXScrollPageView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KXScrollPageView.release.xcconfig"; path = "Pods/Target Support Files/Pods-KXScrollPageView/Pods-KXScrollPageView.release.xcconfig"; sourceTree = "<group>"; };
+		3299727150D0B355AB94D7C4 /* libPods-KXScrollPageView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KXScrollPageView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FCFD99FF601DCBAEA3563B8 /* Pods-KXScrollPageView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KXScrollPageView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KXScrollPageView/Pods-KXScrollPageView.debug.xcconfig"; sourceTree = "<group>"; };
+		9E549D0D1F8B77B90025D35C /* KXScrollPageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KXScrollPageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E549D101F8B77B90025D35C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9E549D111F8B77B90025D35C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9E549D131F8B77B90025D35C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9E549D141F8B77B90025D35C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9E549D171F8B77B90025D35C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E549D191F8B77B90025D35C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E549D1C1F8B77B90025D35C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E549D1E1F8B77B90025D35C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E549D1F1F8B77B90025D35C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E549D271F8B784D0025D35C /* KXPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KXPageControl.h; sourceTree = "<group>"; };
+		9E549D281F8B784D0025D35C /* KXPageControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KXPageControl.m; sourceTree = "<group>"; };
+		9E549D2A1F8B786D0025D35C /* KXScrollPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KXScrollPageView.h; sourceTree = "<group>"; };
+		9E549D2B1F8B786D0025D35C /* KXScrollPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KXScrollPageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E549D0A1F8B77B90025D35C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C54AF2D4525FC8EBD8B62B8 /* libPods-KXScrollPageView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E549D041F8B77B90025D35C = {
+			isa = PBXGroup;
+			children = (
+				9E549D0F1F8B77B90025D35C /* KXScrollPageView */,
+				9E549D0E1F8B77B90025D35C /* Products */,
+				BD7637DA44D864293A2CA262 /* Pods */,
+				F49AC2FF2E00DB945B057024 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9E549D0E1F8B77B90025D35C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E549D0D1F8B77B90025D35C /* KXScrollPageView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E549D0F1F8B77B90025D35C /* KXScrollPageView */ = {
+			isa = PBXGroup;
+			children = (
+				9E549D261F8B78130025D35C /* KXScrollPageView */,
+				9E549D101F8B77B90025D35C /* AppDelegate.h */,
+				9E549D111F8B77B90025D35C /* AppDelegate.m */,
+				9E549D131F8B77B90025D35C /* ViewController.h */,
+				9E549D141F8B77B90025D35C /* ViewController.m */,
+				9E549D161F8B77B90025D35C /* Main.storyboard */,
+				9E549D1B1F8B77B90025D35C /* LaunchScreen.storyboard */,
+				9E549D1E1F8B77B90025D35C /* Info.plist */,
+				9E549D1F1F8B77B90025D35C /* main.m */,
+				9E549D191F8B77B90025D35C /* Assets.xcassets */,
+			);
+			path = KXScrollPageView;
+			sourceTree = "<group>";
+		};
+		9E549D261F8B78130025D35C /* KXScrollPageView */ = {
+			isa = PBXGroup;
+			children = (
+				9E549D271F8B784D0025D35C /* KXPageControl.h */,
+				9E549D281F8B784D0025D35C /* KXPageControl.m */,
+				9E549D2A1F8B786D0025D35C /* KXScrollPageView.h */,
+				9E549D2B1F8B786D0025D35C /* KXScrollPageView.m */,
+			);
+			path = KXScrollPageView;
+			sourceTree = "<group>";
+		};
+		BD7637DA44D864293A2CA262 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FCFD99FF601DCBAEA3563B8 /* Pods-KXScrollPageView.debug.xcconfig */,
+				1147DEF6D3E7821D5BC5E46A /* Pods-KXScrollPageView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F49AC2FF2E00DB945B057024 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3299727150D0B355AB94D7C4 /* libPods-KXScrollPageView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E549D0C1F8B77B90025D35C /* KXScrollPageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E549D231F8B77B90025D35C /* Build configuration list for PBXNativeTarget "KXScrollPageView" */;
+			buildPhases = (
+				BD99788662DE65D1BCB8D81F /* [CP] Check Pods Manifest.lock */,
+				9E549D091F8B77B90025D35C /* Sources */,
+				9E549D0A1F8B77B90025D35C /* Frameworks */,
+				9E549D0B1F8B77B90025D35C /* Resources */,
+				F8D2B69122C167DDA333101F /* [CP] Embed Pods Frameworks */,
+				F8B2CC6004B38330FED46CE1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KXScrollPageView;
+			productName = KXScrollPageView;
+			productReference = 9E549D0D1F8B77B90025D35C /* KXScrollPageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E549D051F8B77B90025D35C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = HMG;
+				TargetAttributes = {
+					9E549D0C1F8B77B90025D35C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9E549D081F8B77B90025D35C /* Build configuration list for PBXProject "KXScrollPageView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E549D041F8B77B90025D35C;
+			productRefGroup = 9E549D0E1F8B77B90025D35C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E549D0C1F8B77B90025D35C /* KXScrollPageView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E549D0B1F8B77B90025D35C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E549D1D1F8B77B90025D35C /* LaunchScreen.storyboard in Resources */,
+				9E549D1A1F8B77B90025D35C /* Assets.xcassets in Resources */,
+				9E549D181F8B77B90025D35C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BD99788662DE65D1BCB8D81F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8B2CC6004B38330FED46CE1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KXScrollPageView/Pods-KXScrollPageView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8D2B69122C167DDA333101F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KXScrollPageView/Pods-KXScrollPageView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E549D091F8B77B90025D35C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E549D151F8B77B90025D35C /* ViewController.m in Sources */,
+				9E549D201F8B77B90025D35C /* main.m in Sources */,
+				9E549D121F8B77B90025D35C /* AppDelegate.m in Sources */,
+				9E549D2C1F8B786D0025D35C /* KXScrollPageView.m in Sources */,
+				9E549D291F8B784D0025D35C /* KXPageControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E549D161F8B77B90025D35C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E549D171F8B77B90025D35C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E549D1B1F8B77B90025D35C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E549D1C1F8B77B90025D35C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E549D211F8B77B90025D35C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9E549D221F8B77B90025D35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E549D241F8B77B90025D35C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FCFD99FF601DCBAEA3563B8 /* Pods-KXScrollPageView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KXScrollPageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HM100.KXScrollPageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E549D251F8B77B90025D35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1147DEF6D3E7821D5BC5E46A /* Pods-KXScrollPageView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KXScrollPageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HM100.KXScrollPageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E549D081F8B77B90025D35C /* Build configuration list for PBXProject "KXScrollPageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E549D211F8B77B90025D35C /* Debug */,
+				9E549D221F8B77B90025D35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E549D231F8B77B90025D35C /* Build configuration list for PBXNativeTarget "KXScrollPageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E549D241F8B77B90025D35C /* Debug */,
+				9E549D251F8B77B90025D35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E549D051F8B77B90025D35C /* Project object */;
+}
